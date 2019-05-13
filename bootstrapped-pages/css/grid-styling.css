@@ -1,0 +1,27 @@
+/* .container { /* This was a test to make sure this file works.
+  background-color: gray;
+} */
+
+.row div {
+  border: 1px solid black;
+}
+
+.row div[class^="col-lg-"] {
+  background-color: PeachPuff;
+}
+
+.row div[class^="col-md-"] {
+  background-color: HotPink;
+}
+
+.row div[class^="col-sm-"] {
+  background-color: lime;
+}
+
+.row div[class^="col-xs-"] {
+  background-color: cyan;
+}
+
+.row div[class$="offset-0"] {
+  background-color: #f8f8f8;
+}
