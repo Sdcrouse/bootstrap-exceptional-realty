@@ -1,0 +1,12 @@
+/*/////// MEDIA ////////*/
+
+img, video, audio, iframe, table, form { /* Make images, videos, etc. responsive. */
+  width: 100%; /* IE */
+  max-width: 100%; /* FF, Safari, Chrome */
+}
+
+/*/////// LAYOUT STYLES ////////*/
+
+.row { /* Add spacing between rows. */
+  margin-bottom: 20px;
+}
